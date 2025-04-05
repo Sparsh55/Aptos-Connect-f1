@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 8%; 
+  top: 88.333vh; 
+  left: 68.229vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background: transparent;
+  z-index: 100;
+  /* Optional gradient overlay at bottom */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+}
+
+.footer-image {
+    width: 28.916vw;
+    height: 6.833vh;
+  /* max-width: 100%; */
+  /* height: auto; */
+  /* max-height: 80px; */
+  /* Optional hover effect */
+  transition: transform 0.3s ease;
+}
+
+.footer-image:hover {
+  transform: scale(1.05);
+}

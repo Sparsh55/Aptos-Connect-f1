@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,900&display=swap');
+
+.game-button {
+  padding: 10px 20px;
+  background: radial-gradient(78.49% 85.82% at 50% 50%, #EDCEFF 0%, #8A46E3 92.25%, #4800A5 100%);
+  height: 9vh;
+  width: 15vw;
+  border: none;
+  border-radius: 8px; 
+  font-size: 10px;
+  font-weight: bold;
+  
+  box-shadow: 
+    0px 4px 10px rgba(138, 70, 227, 0.6),  /* Outer glow */
+    inset 2px 2px 5px rgba(0, 0, 0, 0.2),   /* Inner shadow dark */
+    inset -2px -2px 5px rgba(255, 255, 255, 0.1); /* Inner shadow light */
+  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Hover effect: Makes the button pop */
+.game-button:hover {
+  background: radial-gradient(78.49% 85.82% at 50% 50%, #F0D9FF 0%, #9B5CF6 92.25%, #5A00C5 100%);
+  box-shadow: 
+    0px 6px 15px rgba(138, 70, 227, 0.8),  /* Stronger outer glow */
+    inset 3px 3px 6px rgba(0, 0, 0, 0.3),   /* Stronger inner shadow */
+    inset -3px -3px 6px rgba(255, 255, 255, 0.15); /* Soft inner highlight */
+  transform: scale(1.05); /* Slight pop effect */
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(180deg, #04096B 28.57%, #1B1A1D 76.19%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: 'Alumni Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.82vw;
+  line-height: 100%;
+  letter-spacing: 0;
+  white-space: nowrap;
+}

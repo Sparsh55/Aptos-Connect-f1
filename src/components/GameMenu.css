@@ -1,0 +1,18 @@
+/* GameButton.css */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,900&display=swap');
+
+.game-menu {
+  position: absolute;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+  top: 12vh;           
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column; 
+  gap: 4.5vh;              
+  align-items: center;    
+}

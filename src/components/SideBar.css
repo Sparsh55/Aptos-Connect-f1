@@ -1,0 +1,168 @@
+/* SideBarWrapper */
+.SideBarWrapper {
+    position: absolute;
+    top: 10vh; /* Percentage of viewport height */
+    right: 10vw; /* Percentage of viewport width */
+    transform: translate(50%, -50%);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap:0.90vh
+  }
+  
+  /* Main container */
+  .frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    width: 16vw; /* ≈304px at 1920px viewport */
+    height: 7.5vh; /* ≈80px at 1080px viewport */
+    cursor: pointer;
+  }
+  
+  /* Left panel */
+  .left-panel {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75vh 1vw;
+    width: 8vw; /* Half of container */
+    height: 7.5vh;
+    background: linear-gradient(
+      269.19deg,
+      rgba(165, 26, 26, 0) -23.96%,
+      rgba(165, 26, 26, 0.5) 49.77%,
+      rgba(165, 26, 26, 0) 123.5%
+    );
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #f5cf8d;
+  }
+  
+  /* Money text - now on one line */
+  .money-text {
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2.2vw; /* Responsive text */
+    white-space: nowrap;
+    background: linear-gradient(180deg, #ffdaf2 0%, #f5cf8d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Right panel */
+  .right-panel {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75vh 0.5vw;
+    gap: 0.5vw;
+    width: 8vw;
+    height: 7.5vh;
+    background: linear-gradient(
+      269.19deg,
+      #2d075e -23.96%,
+      #8a46e3 49.77%,
+      #2d075e 123.5%
+    );
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #f5cf8d;
+  }
+  
+  /* Fire icon */
+  .fire-icon {
+    width: 1.5vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fire-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Number text */
+  .number-text {
+    font-family: 'Alumni Sans', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2.7vw; /* Matches money text */
+    background: linear-gradient(180deg, #ffffff 26.67%, #ffc156 77.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Daily Rewards Container */
+  .daily-rewards-container {
+    box-sizing: border-box;
+    width: 16.12vw; /* 309.5px / 1920px */
+    height: 8.48vh; /* 70px / 1080px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Background */
+  .daily-rewards-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 24, 70, 0.49) 0%, rgba(245, 207, 141, 0) 100%);
+    transform: rotate(180deg);
+    position: absolute; /* Make sure it's behind */
+    top: 0;
+    left: 0;
+    z-index: 0; /* Push it to the back */
+    border-radius: 0px; /* Optional rounded edges */
+    cursor: pointer;
+  }
+  
+  /* Centering the Icon and Text */
+  .daily-rewards-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw; /* Space between icon and text */
+    position: relative; /* Keeps it inside */
+    z-index: 1000; /* Ensures it's in front of the background */
+  }
+  
+  /* Trophy Icon */
+  .daily-rewards-icon {
+    width: 3.125vw; /* 60px / 1920px */
+    height: 4.26vh; /* 46px / 1080px */
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  /* Daily Rewards Text */
+  .daily-rewards-text {
+    font-family: 'Alumni Sans', sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.08vw; /* 40px / 1920px */
+    line-height: 100%;
+    background: linear-gradient(180deg, #F7FF8E 26.25%, #FFFFFF 50.55%, #DFA9FF 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 0px 0.42vw rgba(32, 20, 0, 0.4);
+    white-space: nowrap;
+    cursor: pointer;
+  }
+    
+
+
+  
