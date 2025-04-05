@@ -12,9 +12,9 @@ This is a lightweight React project bootstrapped with [Vite](https://vitejs.dev/
 
 ## Page Structure
 
-for the endpont /  the screen will be Deskt0pScreen-1
+for the endpont /  , the screen will be DeskTopScreen-1
 
-for the endpont /page2  the screen will be DeskTopScreen-2
+for the endpont /page2 ,  the screen will be DeskTopScreen-2
 
 ### 📦 Installation
 
