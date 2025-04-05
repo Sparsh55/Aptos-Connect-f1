@@ -1,12 +1,40 @@
-# React + Vite
+### 🚀 Vite + React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a lightweight React project bootstrapped with [Vite](https://vitejs.dev/) for fast development and hot module replacement.
 
-Currently, two official plugins are available:
+---
+### Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+![DeskTop-2](https://github.com/user-attachments/assets/f3a6beb0-a5b1-48c2-84bf-7579e3d5eacc)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Page Structure
+
+for the endpont /  the screen will be DesktpScreen-1
+for the endpont /page2  the screen will be DeskTopScreen-2
+
+### 📦 Installation
+
+## 1. Clone the Repository
+
+git clone https://github.com/Sparsh55/Aptos-Connect-f1
+.
+
+## 2. Navigate to the Project Folder
+
+cd my-vite-app
+
+## 3. Install Dependencies
+Make sure you have Node.js installed.
+
+npm install
+### 🚀 Run the App Locally
+
+npm run dev
+This will start the development server. Open your browser and go to:
+http://localhost:5173
+
+### 📦 Build for Production
+To create an optimized production build:
+
+npm run build
