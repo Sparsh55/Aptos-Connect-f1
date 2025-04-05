@@ -5,8 +5,10 @@ This is a lightweight React project bootstrapped with [Vite](https://vitejs.dev/
 ---
 ### Screenshots
 
+![image](https://github.com/user-attachments/assets/2fbf7e77-260d-4d76-9d7f-ed4c579e1119)
 
-![DeskTop-2](https://github.com/user-attachments/assets/f3a6beb0-a5b1-48c2-84bf-7579e3d5eacc)
+![image](https://github.com/user-attachments/assets/fad4f509-bde4-44fb-90da-5d04ee317a0c)
+
 
 ## Page Structure
 
